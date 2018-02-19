@@ -1,5 +1,5 @@
 teamNames = standing$Team
-teamNames = gsub(' ', '-', teamNames)
+teamNames = gsub(' ', '-', teamNames) # you can get these two by running the Import standing .... file
 for(ti in 1:length(teamNames)){
     player =""
     url <- paste0("http://www.worldfootball.net/teams/",teamNames[ti],"/2017/2/")
